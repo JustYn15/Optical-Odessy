@@ -1,0 +1,93 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #eacc8a;
+    text-align: right;
+    
+}
+
+ul.no-bullets {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: #666666;
+    text-align: center;
+    padding: 28px 30px; 
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 26px; 
+    
+}
+
+li a:hover:not(.active) {
+    background-color: #e9dcbe;
+    color: #628ff1;
+}
+
+li a.active {
+    color: #f1e5c7;
+    background-color: #e7e996;
+}
+
+
+table {
+    width: 80%;
+    border: 3px solid #e7e7e7;
+    margin: 0 auto;
+    background: #e9dcbe;
+}
+
+td {
+    padding: 10px;
+}
+p{
+    font-size: 30px;
+}
+.nav-image {
+    width: 100%;
+    object-fit: fill;
+    height: 40vh; 
+    
+}
+
+footer {
+    background-color: #eacc8a; 
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        padding: 10px 10;
+    }
+    
+    .image-buttons {
+        text-align: right;
+    }
+    
+   
+    .small-button {
+        width: 30px;
+        height: 30px;
+        margin-left: 10px;
+    }
+
+    .logo {
+        float: left; /* Align the logo to the right */
+        margin-left: 10px; /* Add some margin to separate it from other items */
+    }
+    
+    .logo img {
+        width: 300px; /* Adjust the width as needed to fit the logo */
+        height: auto; /* Maintain the aspect ratio */
+        padding: 28px 10px 
+    }
